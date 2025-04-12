@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+}
+.calculator{
+    width: 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+#display{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
